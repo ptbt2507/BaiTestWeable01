@@ -1,0 +1,130 @@
+
+.bg-image{
+    margin: 0 auto;
+    padding-top: 3rem;
+    width: 70%;
+    position: relative;
+}
+.bg-image .image1{
+    text-align: center;
+}
+.bg-image .image2{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.bg-image .image2 img{
+    height: 140px;
+}
+.bg-image .image3{
+    position: absolute;
+    height: 100%;
+    top: 35%;
+    right: 0;
+}
+.bg-image .image3 img{
+    height: 100px;
+}
+.bg-image h1{
+    text-align: center;
+    margin: 1rem 0 3rem;
+}
+
+
+.astro{
+    max-width: 60%;
+    margin: 0 auto;
+}
+.astro .card{
+    position: relative;
+}
+.astro .card .img{
+    display: none;
+}
+.astro .card :hover .img{
+    display: block;
+}
+.astro .card-body .text{
+    width: 60%;
+}
+.astro .card-body .text i{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(106 190 106);
+}
+.astro .card-body .imagess{
+    width: 40%;
+}
+.astro .card-body .imagess img{
+    width: 20rem;
+    height: 20rem;
+}
+.astro .img{
+    position: absolute;
+    background-color: #265787;;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    right: 20%;
+    z-index: 1;
+}
+.astro .img img{
+    height: inherit;
+}
+.astro .number{
+    border-radius: 50px;
+    font-size: 1rem;
+    color: black;
+    background: #dccfcf;
+    padding: 16px 22px;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.astro .accordion .card {
+    border: none;
+    overflow: unset;
+    border-bottom: 1px solid rgb(197, 195, 195);
+}
+
+.astro .accordion .card-noborder {
+    border-bottom: none;
+}
+
+.astro .accordion .card .card-header button {
+    display: flex;
+    justify-content: space-between;
+    color: #0F1419;
+    text-decoration: none;
+    padding: 0.375rem 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.astro .accordion .card .card-header{
+    padding: 0.75rem 0;
+}
+
+
+.astro .accordion .card .card-header button:focus {
+    box-shadow: none;
+}
+
+.astro .accordion .card .card-header {
+    background-color: #fff;
+    border: none;
+}
+.astro .accordion .card .card-body{
+    padding: 0;
+}
+
+.astro .accordion .card .card-body ul {
+    padding-left: 1.1rem;
+    
+}
+.astro .accordion .card .card-body ul li{
+    list-style-type: none;
+    margin-bottom: 0.7rem;
+}
